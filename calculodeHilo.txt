@@ -1,0 +1,21 @@
+Module model
+    Sub main()
+        Dim HorasTrabajadas As Integer
+        Dim CostooHora As Single
+        Dim Sueldo As Single
+        Console.Write("ingrese el peso del hilo: ")
+        HorasTrabajadas = Console.ReadLine()
+        Console.Write("formula: 200 * 150/")
+        CostooHora = Console.ReadLine()
+
+        Sueldo = HorasTrabajadas * CostooHora
+
+        Console.Write("El titulo totall:")
+        Console.Write(Sueldo)
+        Console.ReadKey()
+
+
+
+
+    End Sub
+End Module
